@@ -95,6 +95,8 @@ button {
 
 .logo {
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 
 .nav_links {
@@ -147,9 +149,11 @@ button {
 .selected-lang:before {
   content: "";
   display: block;
+  background-position: center;
+  background-size: cover;
   width: 20px;
   height: 20px;
-  background-image: url(/img/Flag_of_Denmark.svg);
+  background-image: url(/img/usa.svg);
   border-radius: 50px;
 }
 
@@ -166,6 +170,9 @@ button {
 .logo {
   height: 80px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box1 {
@@ -597,8 +604,8 @@ input[type=submit]:hover {
 .subscribe {
   display: flex;
   flex-direction: column;
+  padding: 50px 0;
   align-items: center;
-  justify-content: center;
   background: #ffffff;
   width: 50%;
   height: 400px;
@@ -609,6 +616,7 @@ input[type=submit]:hover {
   font-weight: bold;
   font-size: 26px;
   margin-bottom: 18px;
+  text-align: start;
 }
 
 .subscribe__copy {
@@ -616,10 +624,11 @@ input[type=submit]:hover {
   text-align: center;
   margin-bottom: 40px;
   line-height: 1.5;
+  padding-top: 20px;
 }
 
 .form {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .under-container {
@@ -951,4 +960,44 @@ input[type=submit]:hover {
 
 .vikingmik {
   width: 100px;
+}
+
+.partners {
+  height: 50vh;
+  background-color: #ffffff;
+  padding: 10px 100px;
+}
+
+.partners h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 30px;
+  color: #111111;
+}
+
+.partnerboxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sponsimg {
+  width: 200px;
+  height: 200px;
+}
+
+.container-contact {
+  background-image: url(/img/contact.png);
+  padding: 20px;
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+.kontaktfont {
+  font-size: 50px;
+  text-align: center;
+  color: #BA825A;
 }/*# sourceMappingURL=style.css.map */
