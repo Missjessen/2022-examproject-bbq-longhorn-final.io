@@ -176,6 +176,10 @@ button {
   align-items: flex-end;
 }
 
+.tekstfront img{
+height: 300px;
+}
+
 .kidsque {
   position: relative;
   bottom: 0;
