@@ -1000,4 +1000,37 @@ input[type=submit]:hover {
   font-size: 50px;
   text-align: center;
   color: #BA825A;
+}
+
+.kidscontainer {
+  background-color: #F6F6F6;
+  height: calc(100vh - 80px);
+  display: flex;
+  padding: 30px;
+}
+
+.leftsidekids {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.leftsidekids img {
+  width: 400px;
+  height: 400px;
+}
+
+.rightsidekids {
+  background-color: #ffffff;
+  width: 50%;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  filter: drop-shadow(16px 16px 20px rgba(1, 1, 1, 0.6));
+}
+
+.rightsidekids {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
