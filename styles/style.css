@@ -176,10 +176,6 @@ button {
   align-items: flex-end;
 }
 
-.tekstfront img{
-height: 300px;
-}
-
 .kidsque {
   position: relative;
   bottom: 0;
@@ -277,7 +273,14 @@ height: 300px;
   display: flex;
   gap: 30px;
   justify-content: center;
-  width: 700px;
+  width: auto;
+  border: #BA825A 2px;
+  border-style: double;
+  padding: 5px 5px;
+}
+
+.samler {
+  display: flex;
 }
 
 .lauchtime div {
@@ -438,10 +441,11 @@ height: 300px;
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .left-side h1 {
+  padding-top: 10px;
   font-size: 40px;
 }
 
@@ -489,12 +493,12 @@ input[type=submit],
 select,
 textarea {
   width: 100%;
-  padding: 12px;
+  padding: 2px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 2px;
+  margin-bottom: 10px;
 }
 
 input[type=submit] {
@@ -507,7 +511,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #BEA07D;
+  background-color: rgba(73, 51, 35, 0.9);
+  -webkit-transition: 0.5s;
 }
 
 .doubleform {
@@ -539,12 +544,12 @@ input[type=submit]:hover {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 12px;
+  padding: 2px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   justify-content: center;
 }
 
@@ -913,4 +918,12 @@ input[type=submit]:hover {
   display: flex;
   justify-content: end;
   text-align: end;
+}
+
+.fronttekst {
+  width: 800px;
+}
+
+.vikingmik {
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */
