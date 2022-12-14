@@ -772,7 +772,7 @@ input[type=submit]:hover {
    height: 100%;
 
    width: 100%;
-   display: flex;
+
 }
 
 .lowerboxprogram{
@@ -783,11 +783,11 @@ input[type=submit]:hover {
 }
 
 .programtopleft{
-    background-image: url(/img/about1.png);
-    width: 50%;
+    background-image: url(/img/fire-g607f52d91_1920.jpg);
+    width: 100%;
     background-position: center;
     background-size: cover;
-    height: 100%;
+    height: 30%;
 
     overflow: hidden;
     display: flex;
@@ -810,9 +810,10 @@ input[type=submit]:hover {
 }
 
 .programtopright{
-    width: 50%;
+    width: 100%;
     background-color: $Cultured;
-    padding: 20px 20px 20px 0;
+    padding: 20px 20px 20px 20px;
+    height: 70%;
 }
 
 .programlowleft{
@@ -823,7 +824,7 @@ input[type=submit]:hover {
 }
 
 .programlowright{
-    background-image: url(/img/about2.png);
+    background-image: url(/img/car-g225400c13_1920.jpg);
     width: 50%;
     background-position: center;
     background-size: cover;
@@ -842,21 +843,30 @@ input[type=submit]:hover {
     width: 100%;
     height: 100%;
     box-shadow: 0 4px 20px rgba(73, 51, 35, 0.2);
+    display: flex;
+    
+    
 }
 
 .tider{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
     height: 100%;
+    font-size: 15px;
+    justify-items: center;
+    align-items: center;
+    width: 45%;
+
 }
 
 .spacebetween{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
     height: 90%;
+    width: 80%;
 }
+
 
 .whitebox h1{
     padding-top: 10px;
@@ -865,9 +875,17 @@ input[type=submit]:hover {
 }
 
 .whitebox h2{
-    font-size: 13px;
-    padding-left: 20px;
-    padding-top: 20px;
+    font-size: 25px;
+    writing-mode: vertical-rl;
+    text-align: center;
+    width:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: $Cafe;
+    color: $White;
+    
 }
 
 
@@ -920,8 +938,10 @@ input[type=submit]:hover {
     display: flex;
     justify-content: space-between; 
     text-align: end;
-
+    border-bottom: 1px solid black;
+    padding: 0 0 5px 0;
 }
+
 
 .mostright{
     display: flex;
