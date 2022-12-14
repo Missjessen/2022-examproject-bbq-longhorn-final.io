@@ -258,6 +258,12 @@ height: 300px;
   filter: drop-shadow(16px 16px 20px black);
 }
 
+.vikingmic img{
+  height: 150px;
+  margin-left: -453px;
+  margin-bottom: -123px;
+}
+
 .countdown {
   display: flex;
   height: 474px;
@@ -271,6 +277,7 @@ height: 300px;
   color: #BA825A;
   padding-bottom: 20px;
   font-weight: bold;
+  
 }
 
 .lauchtime {
@@ -278,6 +285,7 @@ height: 300px;
   gap: 30px;
   justify-content: center;
   width: 700px;
+  border: 2px solid #BA825A;
 }
 
 .lauchtime div {
