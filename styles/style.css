@@ -273,24 +273,15 @@ height: 300px;
   font-weight: bold;
 }
 
-.vikingmic img {
-  height: 250px;
-  margin-left: -470px;
-  margin-top: -100px;
-}
-
 .lauchtime {
   display: flex;
   gap: 30px;
   justify-content: center;
-  width: 600px;
-  border: 2px solid #BA825A;
-  margin-top: -160px;
+  width: 700px;
 }
 
 .lauchtime div {
   text-align: center;
-
 }
 
 .lauchtime div p {
@@ -299,7 +290,6 @@ height: 300px;
   text-align: center;
   color: transparent;
   -webkit-text-stroke: 2px #BA825A;
-  
 }
 
 .dato {
