@@ -807,6 +807,25 @@ input[type=submit]:hover {
 }
 
 
+.programtopleft2{
+    background-image: url(/img/meat-g5a2322739_1920.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 30%;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.programtopleft2 h1{
+    text-align: center;
+    color: $White;
+    font-size: 35px;
+}
 
 .programtopleft h1{
     text-align: center;
@@ -953,6 +972,13 @@ input[type=submit]:hover {
     padding: 0 0 5px 0;
 }
 
+.comb2{
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 1px solid black;
+    padding: 0 0 5px 0;
+}
+
 
 .mostright{
     display: flex;
@@ -961,7 +987,7 @@ input[type=submit]:hover {
 }
 
 .fronttekst{
-    width: 800px;
+    width: 900px;
 }
 
 .vikingmik{
