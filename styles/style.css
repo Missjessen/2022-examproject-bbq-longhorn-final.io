@@ -348,7 +348,7 @@ button {
 }
 
 .team-signup h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .team-signup h2 {
@@ -367,7 +367,7 @@ button {
 }
 
 .voluntary-signup h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .voluntary-signup h2 {
@@ -386,7 +386,7 @@ button {
 }
 
 .judge-signup h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .judge-signup h2 {
@@ -669,7 +669,7 @@ input[type=submit]:hover {
   padding: 15px 20px;
   border-radius: 5px;
   border: 1px solid #CAD3DB;
-  width: 431px;
+  width: 350px;
   font-size: 15px;
   color: #0F121F;
 }
@@ -1033,4 +1033,8 @@ input[type=submit]:hover {
 
 .rightsidekids {
   text-align: center;
+}
+
+.adressss {
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
